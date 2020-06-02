@@ -1,3 +1,10 @@
+## To reproduce:
+1. `npm ci`
+1. `./node_modules/.bin/eslint . --ext="tsx"`
+1. Observe: `1:8  error  No default export found in imported module "react"  import/default`
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
